@@ -82,10 +82,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            
-                        
-                            
-                            
                             <li class="menu-search hidden-sm hidden-xs">
                                 <!-- start: SEARCH BUTTON -->
                                 <a href="#"> <i class="ti-search"></i> </a>
