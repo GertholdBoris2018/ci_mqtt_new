@@ -1,157 +1,291 @@
-<!-- start: page -->
-<div class="timeline">
-    <div class="tm-body">
-        <div class="tm-title">
-            <h5 class="m-0 pt-2 pb-2 text-uppercase">November 2017</h5>
-        </div>
-        <ol class="tm-items">
-            <li>
-                <div class="tm-info">
-                    <div class="tm-icon"><i class="fa fa-star"></i></div>
-                    <time class="tm-datetime" datetime="2017-11-22 19:13">
-                        <div class="tm-datetime-date">7 months ago</div>
-                        <div class="tm-datetime-time">07:13 PM</div>
-                </time>
-                </div>
-                <div class="tm-box appear-animation" data-appear-animation="fadeInRight"data-appear-animation-delay="100">
-                    <p>
-                        It's awesome when we find a good solution for our projects, Porto Admin is <span class="text-primary">#awesome</span>
-                    </p>
-                    <div class="tm-meta">
-                        <span>
-                            <i class="fa fa-user"></i> By <a href="#">John Doe</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-tag"></i> <a href="#">Porto</a>, <a href="#">Awesome</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-comments"></i> <a href="#">5652 Comments</a>
-                        </span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="tm-info">
-                    <div class="tm-icon"><i class="fa fa-thumbs-up"></i></div>
-                    <time class="tm-datetime" datetime="2017-11-19 18:13">
-                        <div class="tm-datetime-date">7 months ago</div>
-                        <div class="tm-datetime-time">06:13 PM</div>
-                    </time>
-                </div>
-                <div class="tm-box appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="250">
-                    <p>
-                        What is your biggest developer pain point?
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="tm-info">
-                    <div class="tm-icon"><i class="fa fa-map-marker"></i></div>
-                    <time class="tm-datetime" datetime="2017-11-14 17:25">
-                        <div class="tm-datetime-date">7 months ago</div>
-                        <div class="tm-datetime-time">05:25 PM</div>
-                    </time>
-                </div>
-                <div class="tm-box appear-animation" data-appear-animation="fadeInRight" data-appear-animation-delay="400">
-                    <p>
-                        <a href="#">John Doe</a> is reading a book at <span class="text-primary">New York Public Library</span>
-                    </p>
-                    <blockquote class="primary">
-                        <p>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.</p>
-                        <small>A. Einstein,
-                            <cite title="Brainyquote">Brainyquote</cite>
-                        </small>
-                    </blockquote>
-                    <div id="gmap-checkin-example" class="mb-3" style="height: 250px; width: 100%;"></div>
-                    <div class="tm-meta">
-                        <span>
-                            <i class="fa fa-user"></i> By <a href="#">John Doe</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-comments"></i> <a href="#">9 Comments</a>
-                        </span>
-                    </div>
-                </div>
-            </li>
-        </ol>
-        <div class="tm-title">
-            <h5 class="m-0 pt-2 pb-2 text-uppercase">September 2017</h5>
-        </div>
-        <ol class="tm-items">
-            <li>
-                <div class="tm-info">
-                    <div class="tm-icon"><i class="fa fa-heart"></i></div>
-                    <time class="tm-datetime" datetime="2017-09-08 16:13">
-                        <div class="tm-datetime-date">9 months ago</div>
-                        <div class="tm-datetime-time">04:13 PM</div>
-                    </time>
-                </div>
-                <div class="tm-box appear-animation" data-appear-animation="fadeInRight">
-                    <p>
-                        Checkout! How cool is that!
-                    </p>
-                    <div class="thumbnail-gallery">
-                        <a class="img-thumbnail" href="img/projects/project-4.jpg">
-                            <img width="215" src="img/projects/project-4.jpg">
-                            <span class="zoom">
-                                <i class="fa fa-search"></i>
-                            </span>
-                        </a>
-                        <a class="img-thumbnail" href="img/projects/project-3.jpg">
-                            <img width="215" src="img/projects/project-3.jpg">
-                            <span class="zoom">
-                                <i class="fa fa-search"></i>
-                            </span>
-                        </a>
-                        <a class="img-thumbnail" href="img/projects/project-2.jpg">
-                            <img width="215" src="img/projects/project-2.jpg">
-                            <span class="zoom">
-                                <i class="fa fa-search"></i>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="tm-meta">
-                        <span>
-                            <i class="fa fa-user"></i> By <a href="#">John Doe</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-tag"></i> <a href="#">Duis</a>, <a href="#">News</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-comments"></i> <a href="#">12 Comments</a>
-                        </span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="tm-info">
-                    <div class="tm-icon"><i class="fa fa-video-camera"></i></div>
-                    <time class="tm-datetime" datetime="2017-09-08 11:26">
-                        <div class="tm-datetime-date">9 months ago</div>
-                        <div class="tm-datetime-time">11:26 AM</div>
-                    </time>
-                </div>
-                <div class="tm-box appear-animation" data-appear-animation="fadeInRight">
-                    <p>
-                        Google Fonts gives you access to over 600 web fonts!
-                    </p>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="//player.vimeo.com/video/67957799"></iframe>
-                    </div>
-                    <div class="tm-meta">
-                        <span>
-                            <i class="fa fa-user"></i> By <a href="#">John Doe</a>
-                        </span>
-                        <span>
-                            <i class="fa fa-thumbs-up"></i> 122 Likes
-                        </span>
-                        <span>
-                            <i class="fa fa-comments"></i> <a href="#">3 Comments</a>
-                        </span>
-                    </div>
-                </div>
-            </li>
-        </ol>
-    </div>
-</div>
-<!-- end: page -->
+<!-- start: APP CONTENT -->
+<div class="app-content">
+				<div class="main-content">
+					<section id="page-title">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">Default Blog Page</h1>
+									<span class="mainDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing.</span>
+								</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>Blog</span>
+									</li>
+									<li class="active">
+										<span>Default Blog Page</span>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</section>
+					<section class="container-fluid container-fullw bg-white">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-9">
+									<div class="blog-posts">
+										<article>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="swiper-container horizontal-slider margin-bottom-30">
+														<div class="swiper-wrapper">
+															<div class="swiper-slide">
+																<img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>slider/slider-slide2.jpg" alt="" class="img-responsive" />
+															</div>
+															<div class="swiper-slide">
+																<img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>slider/slider-slide4.jpg" alt="" class="img-responsive" />
+															</div>
+															<div class="swiper-slide">
+																<img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>slider/slider-slide6.jpg" alt="" class="img-responsive" />
+															</div>
+															<div class="swiper-slide">
+																<img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>slider/slider-slide8.jpg" alt="" class="img-responsive" />
+															</div>
+														</div>
+														<!-- Add Pagination -->
+														<div class="swiper-pagination"></div>
+														<!-- Add Arrows -->
+														<div class="swiper-button-next"></div>
+														<div class="swiper-button-prev"></div>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="post-content">
+														<h2><a href="blog_post.html"> Euismod atras vulputate iltricies etri elit </a></h2>
+														<p class="text-dark">
+															Euismod atras vulputate iltricies etri elit per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="post-meta text-light">
+														<span><i class="fa fa-calendar"></i> January 11, 2014 </span>
+														<span><i class="fa fa-user"></i> By <a href="#"> Peter Clark </a> </span>
+														<span><i class="fa fa-tag"></i> <a href="#">Bootstrap</a>, <a href="#">Design</a> </span>
+														<span><i class="fa fa-comments"></i> <a href="#"> 36 Comments </a></span>
+														<a href="blog_post.html" class="btn btn-primary btn-wide btn-scroll btn-scroll-top fa-arrow-right pull-right" data-caption-class="fadeIn" data-caption-delay="900" > <span>Read more...</span> </a>
+													</div>
+												</div>
+											</div>
+										</article>
+										<hr />
+										<article>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="margin-bottom-30">
+														<img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>slider/slider-slide1.jpg" class="img-responsive" alt=""/>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="post-content">
+														<h2><a href="blog_post.html"> Euismod atras vulputate iltricies etri elit </a></h2>
+														<p class="text-dark">
+															Euismod atras vulputate iltricies etri elit per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="post-meta text-light">
+														<span><i class="fa fa-calendar"></i> January 11, 2014 </span>
+														<span><i class="fa fa-user"></i> By <a href="#"> Peter Clark </a> </span>
+														<span><i class="fa fa-tag"></i> <a href="#">Bootstrap</a>, <a href="#">Design</a> </span>
+														<span><i class="fa fa-comments"></i> <a href="#"> 36 Comments </a></span>
+														<a href="blog_post.html" class="btn btn-primary btn-wide btn-scroll btn-scroll-top fa-arrow-right pull-right" data-caption-class="fadeIn" data-caption-delay="900" > <span>Read more...</span> </a>
+													</div>
+												</div>
+											</div>
+										</article>
+										<hr />
+										<article>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="post-media margin-bottom-30">
+														<iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="post-content">
+														<h2><a href="blog_post.html"> Euismod atras vulputate iltricies etri elit </a></h2>
+														<p class="text-dark">
+															Euismod atras vulputate iltricies etri elit per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="post-meta text-light">
+														<span><i class="fa fa-calendar"></i> January 11, 2014 </span>
+														<span><i class="fa fa-user"></i> By <a href="#"> Peter Clark </a> </span>
+														<span><i class="fa fa-tag"></i> <a href="#">Bootstrap</a>, <a href="#">Design</a> </span>
+														<span><i class="fa fa-comments"></i> <a href="#"> 36 Comments </a></span>
+														<a href="blog_post.html" class="btn btn-primary btn-wide btn-scroll btn-scroll-top fa-arrow-right pull-right" data-caption-class="fadeIn" data-caption-delay="900" > <span>Read more...</span> </a>
+													</div>
+												</div>
+											</div>
+										</article>
+										<ul class="pagination">
+											<li>
+												<a href="#"> « </a>
+											</li>
+											<li class="active">
+												<a href="#"> 1 </a>
+											</li>
+											<li>
+												<a href="#"> 2 </a>
+											</li>
+											<li>
+												<a href="#"> 3 </a>
+											</li>
+											<li>
+												<a href="#"> » </a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<aside class="sidebar">
+										<form>
+											<div class="input-group">
+												<input type="text" class="form-control" placeholder="Search..." name="s" id="s">
+												<span class="input-group-btn">
+													<button type="submit" class="btn btn-primary">
+														<i class="fa fa-search"></i>
+													</button> </span>
+											</div>
+										</form>
+										<hr>
+										<h4>Categories</h4>
+										<ul class="nav nav-list blog-categories">
+											<li>
+												<a href="#"> Travel </a>
+											</li>
+											<li>
+												<a href="#"> Design </a>
+											</li>
+											<li>
+												<a href="#"> Videos </a>
+											</li>
+											<li>
+												<a href="#"> Photography </a>
+											</li>
+											<li>
+												<a href="#"> Lifestyle </a>
+											</li>
+										</ul>
+										<div class="tabbable">
+											<div class="tabs">
+												<ul class="nav nav-tabs nav-justified">
+													<li class="active">
+														<a href="#popularPosts" data-toggle="tab"><i class="fa fa-star"></i> Popular</a>
+													</li>
+													<li>
+														<a href="#recentPosts" data-toggle="tab"> Recent </a>
+													</li>
+												</ul>
+												<div class="tab-content">
+													<div class="tab-pane active" id="popularPosts">
+														<ul class="post-list">
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image01_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Nullam Vitae Nibh Un Odiosters </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image02_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Vitae Nibh Un Odiosters </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image03_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Odiosters Nullam Vitae </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="tab-pane" id="recentPosts">
+														<ul class="post-list">
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image04_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Vitae Nibh Un Odiosters </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image05_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Odiosters Nullam Vitae </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="post-image">
+																	<div class="img-thumbnail">
+																		<a href="#"> <img src="<?php echo FRONTENDNEW_IMAGES_PATH;?>portfolio/image06_th.jpg" alt="" class="img-responsive"> </a>
+																	</div>
+																</div>
+																<div class="post-info">
+																	<a href="#"> Nullam Vitae Nibh Un Odiosters </a>
+																	<div class="post-meta">
+																		Jan 10, 2014
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<h4>About Us</h4>
+										<p>
+											Culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus.
+										</p>
+									</aside>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
