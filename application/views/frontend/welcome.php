@@ -30,9 +30,6 @@
         </script>
         <?php
     }
-
-    
-    
 ?>
 
 <section id="banner">

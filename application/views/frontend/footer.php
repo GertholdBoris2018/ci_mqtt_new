@@ -1,49 +1,25 @@
-<!-- Footer -->
-<footer id="footer">
-    <div class="container">
-        <div class="row double">
-            <div class="col-sm-4">
-                <h2 class="h2color" >Why We Choose</h2>
-                <p style="text-align: justify;">Lorem ipsum dolormet consectatur, elit do eiusoma ut lab
-                    labore dolore magnamam voluptatem sit amet.Lorem
-                    ipsum dolormet consectatur, elit do eiusoma ut lab
-                    labore dolore magnamam voluptatem sit amet. Lorem
-                    ipsum dolormet consectatur, elit do eiusoma ut lab
-                    labore dolore magnamam voluptatem sit amet.</p>
-
-            </div>
-            <div class="col-sm-4">
-                <h2 class="h2color">Contact</h2>
-                <p><i class="fa fa-home homricon" aria-hidden="true"></i> Bruchköbel, German<br/>
-                    <a href="<?php echo base_url();?>frontend/contactus"><i class="fa fa-envelope homricon" aria-hidden="true"></i>boris.berthold2018<br/></a>
-                    <i class="fa fa-phone homricon" aria-hidden="true"> </i>+49123123123</p>
-            </div>
-            <div class="col-sm-4">
-                <h2 class="h2color">Follow Us!</h2>
-                <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline">
-                    <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
-                    <li> <a href="#"><i class="fa fa-instagram"></i></a> </li>
-
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-</footer>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('#nav li.dropdown').hover(function() {
-        $(this).find('.dropdown-menu').fadeIn(10);
-    }, 
-    function() {
-        $(this).find('.dropdown-menu').fadeOut(10);
-    });
-});
-    
-</script>
-<div class="footer">@2018 All rights reserved. Berthold</div>
-</body>
+</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>jquery/dist/jquery.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>sticky-kit/jquery.sticky-kit.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>jquery.appear.js/jquery.appear.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>slick.js/slick/slick.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>swiper/dist/js/swiper.jquery.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>countto/jquery.countTo.js"></script>
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="<?php echo FRONTENDNEW_JS_PATH;?>main.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="<?php echo FRONTENDNEW_JS_PATH;?>index.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				Index.init();
+			});
+		</script>
+	</body>
 </html>
