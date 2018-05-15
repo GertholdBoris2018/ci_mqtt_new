@@ -60,4 +60,13 @@ class Pages extends CI_Controller {
         $this->load->view('frontend/contentManagement');
         $this->load->view('frontend/footer');
     }
+
+    public function devicesonNetwork(){
+        $data['selected'] = 'devices';
+        $data['devices'] = __checkdevice(getUserIP());
+        $this->load->view('frontend/header',$data);
+        $this->load->view('frontend/deviceonNetwork');
+        $this->load->view('frontend/footer');
+
+    }
 }

@@ -75,7 +75,7 @@
                                     <li class="<?php echo isset($selected) && $selected == 'wifi'?'active':'';?>"><a href="#"><?php echo lang('top_wifi');?></a></li>
                                     <li class="<?php echo isset($selected) && $selected == 'others'?'active':'';?>"><a href="#"><?php echo lang('top_other_devices');?></a></li>
                                     <li class="<?php echo isset($selected) && $selected == 'content'?'active':'';?>"><a href="<?php echo base_url();?>frontend/pages/contentManagement"><?php echo lang('top_content_management');?></a></li>
-                                    <li class="<?php echo isset($selected) && $selected == 'devices'?'active':'';?>"><a href="#"><?php echo lang('top_devices_on_network');?></a></li>
+                                    <li class="<?php echo isset($selected) && $selected == 'devices'?'active':'';?>"><a href="<?php echo base_url();?>frontend/pages/devicesonNetwork"><?php echo lang('top_devices_on_network');?></a></li>
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo lang('top_more');?></a>
                                         <ul class="dropdown-menu">

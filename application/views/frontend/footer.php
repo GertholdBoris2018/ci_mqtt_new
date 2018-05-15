@@ -124,11 +124,15 @@
 		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 		<script src="<?php echo FRONTENDNEW_JS_PATH;?>blog.js"></script>
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+        <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="<?php echo BOWER_COMPONENT_PATH;?>mixitup/build/jquery.mixitup.min.js"></script>
+        <script src="<?php echo FRONTENDNEW_JS_PATH;?>portfolio.js"></script>
 		<script>
 			jQuery(document).ready(function() {
 				Main.init();
 				Index.init();
 				Blog.init();
+                Portfolio.init();
 			});
 		</script>
 	</body>
